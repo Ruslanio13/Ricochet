@@ -3,15 +3,6 @@ using UnityEngine;
 [DisallowMultipleComponent]
 public class Particles : MonoBehaviour
 
-
-/**
- * Changes only Start Color in all child Particle Systems.
- * It doesn't change "Color over Lifetime" or "Color by Speed"
- * 
- * Made by: The Developer
- * YouTube Channel: https://www.youtube.com/channel/UCwO0k5dccZrTW6-GmJsiFrg
- * Website: https://thedevelopers.tech
- */
 {
     #region Fields
     [Tooltip("Current \"Main\" color of all particle systems")]
