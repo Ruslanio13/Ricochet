@@ -18,9 +18,6 @@ public class Particles : MonoBehaviour
     #endregion
 
     #region Methods
-    /**
-        Update colors of all child systems
-    */
     public void ChangeColor(Color color)
     {
         newColor = color;
@@ -39,11 +36,6 @@ public class Particles : MonoBehaviour
 
         }
     }
-
-
-    /**
-        Convert color from current color system to the new one
-    */
     public Color ConvertCurrentToNew(Color color)
     {
         Color hsv = new Color();
